@@ -1,0 +1,130 @@
+/* style.css for Pedro's Artistic Makeup Brand */
+
+/* --- Body Styles --- */
+body {
+  /* 使用 Verdana 作为正文字体 */
+  font-family: 'Verdana', Geneva, sans-serif; 
+  font-size: 18px;
+  line-height: 1.6;
+  
+  /* 背景选择黑色 (Blacks)，符合 Pedro 的要求 */
+  background-color: #121212; 
+  
+  /* 文字使用白色，在黑色背景上清晰易读 */
+  color: #f5f5f5; 
+  margin: 0;
+  padding: 40px;
+}
+
+/* --- Heading Styles --- */
+/* 标题使用 Georgia (衬线体) */
+h1, h2, h3, h4 {
+  font-family: 'Georgia', serif;
+  /* 使用大胆的金色 (Metallic Gold) */
+  color: #D4AF37; 
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase; /* 全大写增加艺术设计感 */
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  /* 添加金属质感的阴影 */
+  text-shadow: 2px 2px 4px rgba(212, 175, 55, 0.5);
+}
+
+h2 {
+  font-size: 32px;
+  border-bottom: 2px solid #FF1493; /* 使用大胆的粉色线条 */
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* --- Paragraph & Text Styles --- */
+p {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+strong {
+  color: #FF1493; /* 加粗文字使用大胆的粉色点缀 */
+}
+
+/* --- List & Layout Styles --- */
+ul, ol {
+  max-width: 900px;
+  margin: 20px auto;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/* 产品展示列表去点 */
+ul {
+  list-style-type: none;
+}
+
+/* 产品条目样式 */
+.product-item {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e; /* 稍浅的黑色背景 */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #D4AF37; /* 金属金色的侧边线 */
+  border-radius: 4px;
+}
+
+.product-details {
+  margin-left: 30px;
+}
+
+/* --- Image Styles --- */
+img {
+  display: block;
+  margin: 30px auto;
+  max-width: 90%;
+  height: auto;
+  
+  /* 金属感的边框 */
+  border: 2px solid #333;
+  box-shadow: 0 0 15px rgba(255, 20, 147, 0.2); /* 淡淡的粉色发光效果 */
+}
+
+/* 教程步骤图片 */
+.tutorial-step-image {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* --- Horizontal Rule (分割线) --- */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #D4AF37, transparent);
+  margin: 40px 0;
+}
+
+/* --- Review Styles --- */
+.review {
+  background-color: #222;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border: 1px solid #444;
+  font-style: italic;
+}
+
+blockquote {
+  color: #ccc;
+  border-left: 3px solid #FF1493;
+  padding-left: 15px;
+  margin: 10px 0;
+}
